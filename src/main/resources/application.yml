@@ -1,0 +1,16 @@
+server:
+  port: 8080
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+logging:
+  level:
+    root: info
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb2
+    driverClassName: org.h2.Driver
+    username: sa
+    password: password
+  jpa.database-platform: org.hibernate.dialect.H2Dialect
