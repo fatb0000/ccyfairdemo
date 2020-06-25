@@ -6,7 +6,6 @@ import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-import org.springframework.stereotype.Component;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
@@ -16,7 +15,6 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 @ToString
-@Component
 public class OrderRequest {
 
     @Schema(example = "123456")
