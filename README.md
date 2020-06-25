@@ -28,7 +28,7 @@ I have also setup basic authorization that's restrict usage of specific endpoint
 - Swagger UI has included for API doc
 - CORS configuration (webconfig)
 - Security configuration (WebSecurityConfig)
-- Lombok annotation that reduce boiler code for loggin, POJO object
+- Lombok annotation that reduce boilerplate code suc ash logging, getter/setter in POJO object
 - In memory DB used for testing only
 - Mockito uses to mock object in unit test
 - springboot validation used to handle message validation
